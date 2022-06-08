@@ -1,0 +1,64 @@
+5.12  InputValidation (Loop with boolean flag)
+
+Write a program that prompts user for an integer between 0-10 or 90-100. The program shall read the input as int; and repeat until the user enters a valid input. For examples,
+
+Enter a number between 0-10 or 90-100: -1
+Invalid input, try again...
+Enter a number between 0-10 or 90-100: 50
+Invalid input, try again...
+Enter a number between 0-10 or 90-100: 101
+Invalid input, try again...
+Enter a number between 0-10 or 90-100: 95
+You have entered: 95
+
+
+5.13  AverageWithInputValidation (Loop with boolean flag)
+Write a program that prompts user for the mark (between 0-100 in int) of 3 students; computes the average (in double); and prints the result rounded to 2 decimal places. Your program needs to perform input validation. For examples,
+
+Enter the mark (0-100) for student 1: 56
+Enter the mark (0-100) for student 2: 101
+Invalid input, try again...
+Enter the mark (0-100) for student 2: -1
+Invalid input, try again...
+Enter the mark (0-100) for student 2: 99
+Enter the mark (0-100) for student 3: 45
+The average is: 66.67
+
+
+6.2  CheckerPattern (nested-loop)
+Write a program called CheckerPattern that prompts user for the size (a non-negative integer in int); and prints the following checkerboard pattern.
+
+Enter the size: 7
+# # # # # # #
+ # # # # # # #
+# # # # # # #
+ # # # # # # #
+# # # # # # #
+ # # # # # # #
+# # # # # # #
+
+8.3  PhoneKeyPad (String & char)
+On your phone keypad, the alphabets are mapped to digits as follows: ABC(2), DEF(3), GHI(4), JKL(5), MNO(6), PQRS(7), TUV(8), WXYZ(9). Write a program called PhoneKeyPad, which prompts user for a String (case insensitive), and converts to a sequence of keypad digits. Use (a) a nested-if, (b) a switch-case-default.
+
+Enter your text: Bach
+Keypad: 2224
+
+
+8.4  Caesar's Code (String & char)
+Caesar's Code is one of the simplest encryption techniques. Each letter in the plaintext is replaced by a letter some fixed number of position (n) down the alphabet cyclically. In this exercise, we shall pick n=3. That is, 'A' is replaced by 'D', 'B' by 'E', 'C' by 'F', ..., 'X' by 'A', ..., 'Z' by 'C'.
+
+Write a program called CaesarCode to cipher the Caesar's code. The program shall prompt user for a plaintext string consisting of mix-case letters only; compute the ciphertext; and print the ciphertext in uppercase. For example,
+
+Enter a plaintext string: Testing
+The ciphertext string is: WHVWLQJ
+
+9.2  PrintArrayInStars (Array)
+Write a program called printArrayInStars which prompts user for the number of items in an array (a non-negative integer), and saves it in an int variable called numItems. It then prompts user for the values of all the items (non-negative integers) and saves them in an int array called items. The program shall then print the contents of the array in a graphical form, with the array index and values represented by number of stars. For examples,
+
+Enter the number of items: 5
+Enter the value of all items (separated by space): 7 4 3 0 7
+0: *******(7)
+1: ****(4)
+2: ***(3)
+3: (0)
+4: *******(7)
