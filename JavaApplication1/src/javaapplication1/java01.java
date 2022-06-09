@@ -68,7 +68,8 @@ public class java01{
       return arr;
   }
 
-  static boolean check_positive_int(String input) {
+  static boolean check_positive_int(String input) 
+  {
     try {
       int number = Integer.parseInt(input);
       if (number < 0 ) {
@@ -82,7 +83,8 @@ public class java01{
     return true;
   }
 
-  static String getinput(String label) {
+  static String getinput(String label) 
+  {
 
     Scanner sc = new Scanner(System.in);
     System.out.print(label);
@@ -91,14 +93,16 @@ public class java01{
 
   }
 
-  static void printname() {
+  static void printname() 
+  {
 
     String myName = getinput("Enter name: ");
     System.out.println("Your Name: " + myName);
 
   }
 
-  static void InputValidation() {
+  static void InputValidation() 
+  {
 
     int num;
     do {
@@ -118,7 +122,8 @@ public class java01{
 
   }
 
-  static void AverageWithInputValidation() {
+  static void AverageWithInputValidation() 
+  {
     int n = 1;
     Double total = 0.0;
     do {
@@ -143,7 +148,8 @@ public class java01{
 
   }
 
-  static void CheckerPattern() {
+  static void CheckerPattern() 
+  {
 
     
     int size;
@@ -172,7 +178,8 @@ public class java01{
     } while (i == 1);
   }
 
-  static void PhoneKeyPad() {
+  static void PhoneKeyPad() 
+  {
 
     String keypad = "";
     int i = 0;
@@ -216,7 +223,8 @@ public class java01{
     System.out.print("keypad: "+ keypad);
   }
 
-  static void Caesar() {
+  static void Caesar() 
+  {
 
     String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";// 26
     int num = 3;
@@ -254,7 +262,8 @@ public class java01{
 
   }
 
-  static String drawstar(int x) {
+  static String drawstar(int x) 
+  {
     String result = "";
     for (int i = 0; i < x; i++) {
       result += "*";
@@ -262,7 +271,8 @@ public class java01{
     return result;
   }
 
-  static void PrintArrayInStars() {
+  static void PrintArrayInStars() 
+  {
 
     int i;
     String num_of_items;
