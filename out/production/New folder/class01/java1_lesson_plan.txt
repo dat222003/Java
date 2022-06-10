@@ -1,0 +1,30 @@
+introduction + basics
+	install jdk8
+		https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+		https://download.oracle.com/otn-pub/java/jdk/8u202-b08/1961070e4c9b4e26a04e7f5a083f551e/jdk-8u202-windows-x64.exe
+
+	install netbeans 8.2
+		https://netbeans.org/downloads/8.2/
+		https://netbeans.org/downloads/8.2/start.html?platform=windows&lang=en&option=all
+	
+	variables + primitive data types (integer, float, character, boolean or string "abc")
+		https://www.w3schools.com/java/java_data_types.asp
+	
+	print()/println(); 
+		self study System.out.printf(), System.out.format() 
+		
+	scan user input
+		https://www.w3schools.com/java/java_user_input.asp
+		
+	condition: if-elseif-else / switch-case
+	
+	loop: while, do-while, for, for-each
+	
+	array
+		https://www.w3schools.com/java/java_arrays.asp
+	
+	Math/String methods
+	
+	static method
+		https://www.w3schools.com/java/java_methods.asp
+	

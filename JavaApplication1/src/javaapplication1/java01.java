@@ -17,51 +17,46 @@ import java.util.Scanner;
 public class java01{
 
   public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    boolean continued = false;
-    try {
+      Scanner sc = new Scanner(System.in);
+      String input;
+      String out;
       do {
-        String key = getinput("Select (): ");
-        switch (key) {
-          case "name":
-            printname();
-            return;
-          case "5.12":
-            InputValidation();
-            return;
-          case "5.13":
-            AverageWithInputValidation();
-            return;
-          case "6.2":
-            CheckerPattern();
-            return;
-          case "8.3":
-            PhoneKeyPad();
-            return;
-          case "8.4":
-            Caesar();
-            return;
-          case "9.2":
-            PrintArrayInStars();
-            return;
-          default:
-            System.out.println("Invalid input... Try again ");
-            continued = true;
-            break;
-        }
-      } while (continued);
-    } catch (Exception e) {
-      System.out.println(e);
-      sc.close();
-      return;
-    }
-    sc.close();
+          lab1();
+          System.out.print("Continue ? (Y): ");
+          input = sc.nextLine();
+          out = input.toUpperCase();
+      } while (out.contains("Y"));
   }
 
-  public static Integer[] add_to_array(Integer arr[], int x)
+    public static void lab1() {
+        boolean continued = false;
+        try {
+            do {
+                continued = false;
+                String key = getinput("Select (): ");
+                switch (key) {
+                    case "name" -> printname();
+                    case "5.12" -> InputValidation();
+                    case "5.13" -> AverageWithInputValidation();
+                    case "6.2" -> CheckerPattern();
+                    case "8.3" -> PhoneKeyPad();
+                    case "8.4" -> Caesar();
+                    case "9.2" -> PrintArrayInStars();
+                    case "end" -> System.exit(0);
+                    default -> {
+                        System.out.println("Invalid input... Try again ");
+                        continued = true;
+                    }
+                }
+            } while (continued);
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+    }
+  public static Integer[] add_to_array(Integer[] arr, int x)
   {
 
-      List<Integer> arrlist = new ArrayList<Integer>(Arrays.asList(arr));
+      List<Integer> arrlist = new ArrayList<>(Arrays.asList(arr));
       arrlist.add(x);
       arr = arrlist.toArray(arr);
 
@@ -88,8 +83,7 @@ public class java01{
 
     Scanner sc = new Scanner(System.in);
     System.out.print(label);
-    String input = sc.nextLine();
-    return input;
+    return sc.nextLine();
 
   }
 
@@ -181,49 +175,33 @@ public class java01{
   static void PhoneKeyPad() 
   {
 
-    String keypad = "";
+    StringBuilder keypad = new StringBuilder();
     int i = 0;
     do {
     String input = getinput("Enter your text: ");
     input = input.toUpperCase();
       for (i = 0; i < input.length(); i++) {
-        switch (input.charAt(i)) {
-          case 'A': case 'B': case 'C':
-            keypad = keypad + '2';
-            break;
-          case 'D': case 'E': case 'F':
-            keypad = keypad + '3';
-            break;
-          case 'G': case 'H': case 'I':
-            keypad = keypad + '4';
-            break;
-          case 'J': case 'K': case 'L':
-            keypad = keypad + '5';
-            break;
-          case 'M': case 'N': case 'O':
-            keypad = keypad + '6';
-            break;
-          case 'P': case 'Q': case 'R': case 'S':
-            keypad = keypad + '7';
-            break;
-          case 'T': case 'U': case 'V':
-            keypad = keypad + '8';
-            break;
-          case 'W': case 'X': case 'Y': case 'Z':
-            keypad = keypad + '9';
-            break;
-          default:
-            System.out.println("Invalid input... Try again");
-            keypad = "";
-            i = input.length();
-            break;
-        }
+          switch (input.charAt(i)) {
+              case 'A', 'B', 'C' -> keypad.append('2');
+              case 'D', 'E', 'F' -> keypad.append('3');
+              case 'G', 'H', 'I' -> keypad.append('4');
+              case 'J', 'K', 'L' -> keypad.append('5');
+              case 'M', 'N', 'O' -> keypad.append('6');
+              case 'P', 'Q', 'R', 'S' -> keypad.append('7');
+              case 'T', 'U', 'V' -> keypad.append('8');
+              case 'W', 'X', 'Y', 'Z' -> keypad.append('9');
+              default -> {
+                  System.out.println("Invalid input... Try again");
+                  keypad = new StringBuilder();
+                  i = input.length();
+              }
+          }
       }
-    } while (keypad == "");
+    } while (keypad.toString() == "");
     System.out.print("keypad: "+ keypad);
   }
 
-  static void Caesar() 
+  static void Caesar()
   {
 
     String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";// 26
@@ -231,7 +209,8 @@ public class java01{
     String result = "";
     boolean continued = false;
     int pos_out = 0;
-    int breakpoint = alphabet.length() - 1 - num;
+    int alphabet_length = 26;
+    int breakpoint = alphabet_length - num;
     do {
       String input = getinput("Enter a plaintext string: ");
       input = input.toUpperCase();
@@ -247,28 +226,31 @@ public class java01{
         }
         continued = false;
 
-        if ( pos_in + num > breakpoint ) {
-          pos_out = pos_in - breakpoint - 1;
-          result = result + alphabet.charAt(pos_out);
+        if ( pos_in < breakpoint ) {
+            pos_out = pos_in + num;
+            result += alphabet.charAt(pos_out);
+        } else if (pos_in == breakpoint) {
+            pos_out = 0;
+            result += alphabet.charAt(pos_out);
         }else{
-          pos_out = pos_in + num;
-          result = result + alphabet.charAt(pos_out);
+            pos_out = pos_in - breakpoint;
+            result += alphabet.charAt(pos_out);
         }
         
       }
     } while (continued);
 
-    System.out.print(result);
+    System.out.println(result);
 
   }
 
   static String drawstar(int x) 
   {
-    String result = "";
+    StringBuilder result = new StringBuilder();
     for (int i = 0; i < x; i++) {
-      result += "*";
+      result.append("*");
     }
-    return result;
+    return result.toString();
   }
 
   static void PrintArrayInStars() 
