@@ -33,7 +33,7 @@ public class lab {
         employee.setSalary(10000);
         System.out.println("new Salary: " + employee.getSalary());
         System.out.println("getAnnuallySalary: " + employee.getAnnuallySalary());
-        System.out.print("raiseSalary to 20%: " + employee.raiseSalary(20));
+        System.out.println("raiseSalary to 20%: " + employee.raiseSalary(20));
         System.out.println("toString: " + employee);
     }
     
