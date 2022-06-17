@@ -2,7 +2,7 @@ package lab02.src.lab02;
 
 public class Book2 {
 
-    private String name;
+    private final String name;
     private final Author[] author;
     private double price;
     private int qty = 0;

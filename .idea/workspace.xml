@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23149d22-2873-4fe1-9c38-c1890616275e" name="Changes" comment="lab02">
-      <change afterPath="$PROJECT_DIR$/lab02/src/lab02/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab02/src/lab02/Book1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab02/src/lab02/Book2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab02/src/lab02/check_lab02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="23149d22-2873-4fe1-9c38-c1890616275e" name="Changes" comment="lab02 part 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaApplication1/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaApplication1/nbproject/private/private.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab02/src/lab02/lab.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab02/src/lab02/lab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/New folder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/New folder/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab02/src/lab02/lab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/New folder/lab02/src/lab02/lab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab02/src/lab02/Book2.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab02/src/lab02/Book2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/New folder/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/New folder/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +125,7 @@
       <workItem from="1655351056008" duration="129000" />
       <workItem from="1655362922274" duration="7248000" />
       <workItem from="1655433266417" duration="506000" />
-      <workItem from="1655433813751" duration="3830000" />
+      <workItem from="1655433813751" duration="4259000" />
     </task>
     <task id="LOCAL-00001" summary="lab02">
       <created>1655369513963</created>
@@ -141,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655369513963</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lab02 part 2">
+      <created>1655437712728</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655437712728</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +161,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="lab02" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab02" />
+    <MESSAGE value="lab02 part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab02 part 2" />
   </component>
 </project>
