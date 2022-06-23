@@ -1,9 +1,9 @@
-package lab02.src.lab02;
+package lab02;
 
 public class Book1 {
 
     private final String name;
-    private Author author;
+    private final Author author;
     private double price;
     private int qty = 0;
 
@@ -45,9 +45,13 @@ public class Book1 {
         this.qty = qty;
     }
 
+    /**
+     *
+     * @return
+     */
     @Override
     public String toString() {
-        return "Book1[" +
+        return "Book[" +
                 "name='" + this.name + '\'' +
                 ", " + this.author +
                 ", price=" + this.price +

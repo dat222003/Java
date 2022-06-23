@@ -1,4 +1,4 @@
-package lab02.src.lab02;
+package lab02;
 
 public class check_lab02 {
 

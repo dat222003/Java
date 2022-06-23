@@ -1,4 +1,4 @@
-package lab02.src.lab02;
+package lab02;
 
 public class Book2 {
 
@@ -56,6 +56,25 @@ public class Book2 {
         return authornames.toString();
     }
 
+     @Override
+    public String toString() {
+        
+        StringBuilder authors = new StringBuilder();
+        for (Author author1 : this.author) {
+            authors.append(author1);
+            if (author1 != this.author[author.length-1]){
+                authors.append(", ");
+            }
+        }
+        
+        return "Book.auther[][" +
+                "name='" + this.name + '\'' +
+                ", " + authors +
+                ", price=" + this.price +
+                ", qty=" + this.qty +
+                ']';
+    }
+    
 
 
 }
