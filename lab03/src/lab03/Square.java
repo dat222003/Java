@@ -1,5 +1,4 @@
-package lab03.src.lab03;
-
+package lab03;
 public class Square extends Rectangle {
     Square(){
         super();
@@ -19,6 +18,15 @@ public class Square extends Rectangle {
     public void setWidth(double side) {
         super.setLength(side);
         super.setWidth(side);
+    }
+    
+    public void setSide(double side){
+        super.setLength(side);
+        super.setWidth(side);
+    }
+    
+    public double getSide(){
+        return this.getLength();
     }
 
     @Override

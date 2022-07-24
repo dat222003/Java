@@ -1,4 +1,4 @@
-package lab03.src.lab03;
+package lab03;
 
 import java.util.ArrayList;
 import java.util.Arrays;

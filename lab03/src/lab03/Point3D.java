@@ -1,10 +1,10 @@
-package lab03.src.lab03;
-
+package lab03;
 public class Point3D extends Point2D{
     private int z;
 
     Point3D(){
         super();
+        this.z =0;
     }
 
     Point3D(int x, int y, int z) {
@@ -23,6 +23,6 @@ public class Point3D extends Point2D{
 
     @Override
     public String toString() {
-        return "(" + getX() + "," + getY() + "," + z + ")";
+        return "(" + this.getX() + "," + this.getY() + "," + this.z + ")";
     }
 }

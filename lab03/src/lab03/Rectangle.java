@@ -1,5 +1,4 @@
-package lab03.src.lab03;
-
+package lab03;
 public class Rectangle extends Shape{
 
     private double width;

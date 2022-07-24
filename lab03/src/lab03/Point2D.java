@@ -1,5 +1,4 @@
-package lab03.src.lab03;
-
+package lab03;
 public class Point2D {
     private int x;
     private int y;
@@ -33,6 +32,6 @@ public class Point2D {
 
     @Override
     public String toString() {
-        return "(" + x + "," + y + ")";
+        return "(" + this.x + "," + this.y + ")";
     }
 }

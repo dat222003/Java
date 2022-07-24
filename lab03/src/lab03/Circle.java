@@ -1,4 +1,4 @@
-package lab03.src.lab03;
+package lab03;
 
 public class Circle extends Shape{
     private final double radius;

@@ -1,5 +1,4 @@
-package lab03.src.lab03;
-
+package lab03;
 public class Shape {
 
     private String color;
