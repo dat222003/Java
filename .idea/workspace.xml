@@ -1,89 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23149d22-2873-4fe1-9c38-c1890616275e" name="Changes" comment="lab04 (bai tap lab03)">
-      <change afterPath="$PROJECT_DIR$/c05/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c05/manifest.mf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c05/nbproject/build-impl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c05/nbproject/genfiles.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c05/nbproject/project.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c05/nbproject/project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c05/src/c05.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c05/src/c05/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c05/src/c05/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c05/src/c05/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c05/src/c05/composition/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c05/src/c05/composition/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c05/src/c05/composition/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab03/src/lab03/poly/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab03/src/lab03/poly/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab03/src/lab03/poly/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/manifest.mf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/nbproject/build-impl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/nbproject/genfiles.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/nbproject/project.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/nbproject/project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/lab04/Animal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/lab04/Animal/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/lab04/Animal/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/lab04/Animal/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/lab04/Animal/Spider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/lab04/Animal/TestAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/lab04/Lab04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/lab04/Movable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/lab04/MovablePoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/lab04/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/lab04/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/lab04/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/lab04/Test02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/lab04/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/manifest.mf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/nbproject/build-impl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/nbproject/genfiles.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/nbproject/project.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/nbproject/project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/src/lab06/Lab01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/src/lab06/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/src/lab06/math.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/manifest.mf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/nbproject/build-impl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/nbproject/genfiles.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/nbproject/project.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/nbproject/project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/practice/Movable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/practice/MovableCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/practice/MovablePoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/practice/MovableRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/practice/MovableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/practice/Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/practice/Temperature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="23149d22-2873-4fe1-9c38-c1890616275e" name="Changes" comment="lab">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab06/src/lab06/Addition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab06/src/lab06/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab06/src/lab06/MathExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab06/src/lab06/Modular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab06/src/lab06/Multiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab06/src/lab06/PrintOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab06/src/lab06/Subtraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/math_result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/src/lab03/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/src/lab03/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/src/lab03/Lab03.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/src/lab03/Lab03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/src/lab03/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/src/lab03/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/src/lab03/Point2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/src/lab03/Point2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/src/lab03/Point3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/src/lab03/Point3D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/src/lab03/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/src/lab03/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/src/lab03/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/src/lab03/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/src/lab03/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/src/lab03/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/src/lab03/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/src/lab03/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/src/lab03/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/src/lab03/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/New folder/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/New folder/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/New folder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/New folder/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab02.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab03/src/lab03/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab03/src/lab03/Lab03.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab03/src/lab03/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab03/src/lab03/Point2D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab03/src/lab03/Point3D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab03/src/lab03/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab03/src/lab03/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab03/src/lab03/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab03/src/lab03/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab04.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/src/lab06/Lab01.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/src/lab06/Lab01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/src/lab06/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/src/lab06/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab06/src/lab06/Lab01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/New folder/lab06/src/lab06/Lab01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab06/src/lab06/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/New folder/lab06/src/lab06/Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,20 +62,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Lab01">
-    <configuration name="Lab01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab06.src.lab06.Lab01" />
-      <module name="New folder" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab06.src.lab06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test">
     <configuration name="MovableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.src.practice.MovableTest" />
       <module name="New folder" />
@@ -169,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAnimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab04.src.lab04.Animal.TestAnimal" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab06.src.lab06.Test" />
       <module name="New folder" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab04.src.lab04.Animal.*" />
+          <option name="PATTERN" value="lab06.src.lab06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,12 +102,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lab04.src.lab04.Test02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab04.src.lab04.Test02" />
+    <configuration name="lab06.src.lab06.Lab01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab06.src.lab06.Lab01" />
       <module name="New folder" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab04.src.lab04.Animal.*" />
+          <option name="PATTERN" value="lab06.src.lab06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab06.src.lab06.PrintOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab06.src.lab06.PrintOutput" />
+      <module name="New folder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab06.src.lab06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lab01" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.lab06.src.lab06.Lab01" />
+        <item itemvalue="Application.lab06.src.lab06.PrintOutput" />
         <item itemvalue="Application.MovableTest" />
         <item itemvalue="Application.Practice" />
-        <item itemvalue="Application.TestAnimal" />
-        <item itemvalue="Application.lab04.src.lab04.Test02" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +174,8 @@
       <workItem from="1656298945110" duration="3631000" />
       <workItem from="1657245139723" duration="4127000" />
       <workItem from="1657503446565" duration="27000" />
-      <workItem from="1658656783981" duration="5331000" />
+      <workItem from="1658656783981" duration="18456000" />
+      <workItem from="1658678609294" duration="125000" />
     </task>
     <task id="LOCAL-00001" summary="lab02">
       <created>1655369513963</created>
@@ -271,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655994068244</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lab">
+      <created>1658662268358</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658662268358</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +234,8 @@
     <MESSAGE value="lab02" />
     <MESSAGE value="lab02 part 2" />
     <MESSAGE value="lab04 (bai tap lab03)" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab04 (bai tap lab03)" />
+    <MESSAGE value="lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
