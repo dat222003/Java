@@ -1,0 +1,7 @@
+smallest: tax
+smallest: pat
+smallest: fog
+smallest: nun
+smallest: fee
+smallest: put
+longest: confrontation
