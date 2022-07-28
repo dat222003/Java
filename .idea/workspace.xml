@@ -1,22 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23149d22-2873-4fe1-9c38-c1890616275e" name="Changes" comment="lab">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/src/lab06/Addition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/src/lab06/Division.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/src/lab06/MathExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/src/lab06/Modular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/src/lab06/Multiplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/src/lab06/PrintOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/src/lab06/Subtraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/math_result.txt" afterDir="false" />
+    <list default="true" id="23149d22-2873-4fe1-9c38-c1890616275e" name="Changes" comment="lab1 + 2 c06">
+      <change afterPath="$PROJECT_DIR$/lab07/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/src/lab07/SentencesCompare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/src/lab07/StringCompare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/src/lab07/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/src/lab07/random_sentences.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/src/lab07/random_words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longest_word.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vowel_word.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06.zip" beforeDir="false" afterPath="$PROJECT_DIR$/lab06.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/math_oop_result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/math_oop_result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/src/lab06/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/src/lab06/Addition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/src/lab06/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/src/lab06/Division.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab06/src/lab06/Lab01.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/src/lab06/Lab01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/src/lab06/MathExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/src/lab06/MathExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/src/lab06/Modular.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/src/lab06/Modular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/src/lab06/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/src/lab06/Multiplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/src/lab06/PrintOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/src/lab06/PrintOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/src/lab06/Subtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/src/lab06/Subtraction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab06/src/lab06/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/src/lab06/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab06/src/lab06/Lab01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/New folder/lab06/src/lab06/Lab01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab06/src/lab06/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/New folder/lab06/src/lab06/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/src/lab06/math.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/src/lab06/math.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/New folder/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/New folder/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/New folder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/New folder/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab04.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab06/src/lab06/Addition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab06/src/lab06/Division.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab06/src/lab06/Lab01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab06/src/lab06/MathExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab06/src/lab06/Modular.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab06/src/lab06/Multiplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab06/src/lab06/PrintOutput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab06/src/lab06/Subtraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab06/src/lab06/Test$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab06/src/lab06/Test$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab06/src/lab06/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/New folder/lab06/src/lab06/math.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/New folder/lab06/src/lab06/math.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +89,18 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="MovableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.src.practice.MovableTest" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Code\Java\lab07\src\lab07" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SentencesCompare">
+    <configuration name="SentencesCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab07.src.lab07.SentencesCompare" />
       <module name="New folder" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.src.practice.*" />
+          <option name="PATTERN" value="lab07.src.lab07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.src.practice.Practice" />
+    <configuration name="StringCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab07.src.lab07.StringCompare" />
       <module name="New folder" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.src.practice.*" />
+          <option name="PATTERN" value="lab07.src.lab07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SentencesCompare" />
+        <item itemvalue="Application.StringCompare" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.lab06.src.lab06.Lab01" />
         <item itemvalue="Application.lab06.src.lab06.PrintOutput" />
-        <item itemvalue="Application.MovableTest" />
-        <item itemvalue="Application.Practice" />
       </list>
     </recent_temporary>
   </component>
@@ -176,6 +208,8 @@
       <workItem from="1657503446565" duration="27000" />
       <workItem from="1658656783981" duration="18456000" />
       <workItem from="1658678609294" duration="125000" />
+      <workItem from="1658714368214" duration="107000" />
+      <workItem from="1658986865879" duration="14090000" />
     </task>
     <task id="LOCAL-00001" summary="lab02">
       <created>1655369513963</created>
@@ -212,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658662268358</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="lab1 + 2 c06">
+      <created>1658714447760</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658714447760</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +276,8 @@
     <MESSAGE value="lab02 part 2" />
     <MESSAGE value="lab04 (bai tap lab03)" />
     <MESSAGE value="lab" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab" />
+    <MESSAGE value="lab1 + 2 c06" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab1 + 2 c06" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -254,6 +296,11 @@
           <url>file://$PROJECT_DIR$/lab03/src/lab03/Lab03.java</url>
           <line>43</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab07/src/lab07/StringCompare.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

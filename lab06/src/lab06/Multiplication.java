@@ -11,12 +11,6 @@ public class Multiplication extends MathExpression {
 
     @Override
     int calculate() {
-        int result = 0;
-        try {
-            result = getLeft() * getRight();
-        } catch (ArithmeticException math) {
-            System.out.println( " = Error -> " + math);
-        }
-        return result;
+        return getLeft() * getRight();
     }
 }

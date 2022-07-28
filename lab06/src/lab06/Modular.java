@@ -1,6 +1,6 @@
 package lab06;
 
-public class Modular extends MathExpression {
+public class Modular extends Division {
     public Modular() {
     }
 
@@ -10,12 +10,6 @@ public class Modular extends MathExpression {
 
     @Override
     int calculate() {
-        int result = 0;
-        try {
-            result = getLeft() % getRight();
-        } catch (ArithmeticException math) {
-            System.out.println(this + " = Error -> " + math);
-        }
-        return result;
+        return getLeft() % getRight();
     }
 }

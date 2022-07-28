@@ -6,7 +6,7 @@ public class PrintOutput {
 
     public static void main(String[] args) {
         try (
-                 BufferedReader reader = new BufferedReader(new FileReader("lab06/src/lab06/math.txt"));
+                 BufferedReader reader = new BufferedReader(new FileReader("src/lab06/math.txt"));
                  BufferedWriter writer = new BufferedWriter(new FileWriter("math_result.txt"));
             ) {
 
@@ -41,7 +41,11 @@ public class PrintOutput {
 
         } catch (IOException e) {
             System.out.println(e);
+        } catch (Exception exp) {
+            System.out.println(exp);
+        } finally {
+            System.out.println("completed");
         }
-
+        
     }
 }

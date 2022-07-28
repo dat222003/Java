@@ -9,7 +9,6 @@ public class Lab01 {
     public static void main(String[] args) {
         try (BufferedReader reader = new BufferedReader(new FileReader("src/lab06/math.txt"))) {
             String line;
-
             while((line = reader.readLine()) != null) {
                 String[] lineparts = line.split(" ");
                 int a = 1; int b = 1;
@@ -30,16 +29,15 @@ public class Lab01 {
                         case "%" -> System.out.println(line + " = " + (a % b));
                         default -> System.out.println(a + " " + op + " " + b + " not an operator");
                     }
-
                 } catch (ArithmeticException math) {
                     System.out.print(a + " " + op + " " + b + " = Error -> ");
                     System.out.println(math);
                 }
-
             }
-
         } catch (IOException e) {
             System.out.println(e);
+        } catch (Exception exp) {
+            System.out.println(exp);
         }
 
     }

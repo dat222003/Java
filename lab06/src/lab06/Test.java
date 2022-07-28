@@ -18,61 +18,45 @@ public class Test {
     public static void main(String[] args) {
         MathExpression[] me = new MathExpression[150];
         try (
-             BufferedReader reader = new BufferedReader(new FileReader("src/lab06/math.txt"));
-             BufferedWriter writer = new BufferedWriter(new FileWriter("math_oop_result.txt"));
-        ) {
+                BufferedReader reader = new BufferedReader(new FileReader("src/lab06/math.txt"));  
+                BufferedWriter writer = new BufferedWriter(new FileWriter("math_oop_result.txt"));
+                ) {
             String line;
             int i = 0;
-            while((line = reader.readLine()) != null) {
+            while ((line = reader.readLine()) != null) {
                 String[] lineparts = line.split(" ");
                 String op = lineparts[1];
                 try {
-                    int a = Integer.parseInt(lineparts[0]);
-                    int b = Integer.parseInt(lineparts[2]);
                     switch (op) {
-                        case "+" -> me[i] = new Addition(line);
-                        case "-" -> me[i] = new Subtraction(line);
-                        case "*" -> me[i] = new Multiplication(line);
-                        case "/" -> me[i] = new Division(line);
-                        case "%" -> me[i] = new Modular(line);
-                        default -> me[i] = new MathExpression(line) {
-                            @Override
-                            int calculate() {
-                                return 0;
-                            }
-                            @Override
-                            public String toString() {
-                                return "MathExpression: " +
-                                        left + " "
-                                        + operator + " "
-                                        + right + " = Error -> "
-                                        + operator + " is not an operator";
-                            }
-                        };
+                        case "+" ->
+                            me[i] = new Addition(line);
+                        case "-" ->
+                            me[i] = new Subtraction(line);
+                        case "*" ->
+                            me[i] = new Multiplication(line);
+                        case "/" ->
+                            me[i] = new Division(line);
+                        case "%" ->
+                            me[i] = new Modular(line);
+                        default ->
+                            me[i] = new OtherExp(line);
                     }
-                } catch (NumberFormatException num) {
-                    String equay = line;
-                    me[i] = new MathExpression(equay) {
-                        @Override
-                        int calculate() {
-                            return 0;
-                        }
-                        @Override
-                        public String toString() {
-                            return "MathExpression: " +
-                                    equay + " = Error -> " + num;
-                        }
-                    };
+                } catch (Exception num) {
+                    me[i] = new OtherExp(line);
                 }
-            System.out.println(me[i]);
-            writer.write(me[i] + "\n");
-            i++;
 
+                i++;
+            }
+            
+            for(MathExpression e : me) {
+                System.out.println(e);
             }
         } catch (IOException e) {
             System.out.println(e);
+        } catch (Exception exp) {
+            System.out.println(exp);
         }
 
     }
-    
+
 }

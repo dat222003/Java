@@ -11,12 +11,6 @@ public class Addition extends MathExpression {
     }
     @Override
     public int calculate() {
-        int result = 0;
-        try {
-            result = getLeft() + getRight();
-        } catch (ArithmeticException math) {
-            System.out.println(this + " = Error -> " + math);
-        }
-        return result;
+        return getLeft() + getRight();
     }
 }
